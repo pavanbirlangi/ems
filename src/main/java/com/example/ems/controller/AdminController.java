@@ -75,6 +75,4 @@ public class AdminController {
         model.addAttribute("employees", employees);  
         return "employee-list"; 
 }
-
-
 }
