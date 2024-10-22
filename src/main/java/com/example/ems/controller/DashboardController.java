@@ -42,7 +42,6 @@ public class DashboardController {
         
         // Add employee to the model so that Thymeleaf can access it
         model.addAttribute("employee", employee);
-        
-        return "employee-dashboard"; // Returns the employee-dashboard view
+              return "employee-dashboard"; // Returns the employee-dashboard view
     }
 }
