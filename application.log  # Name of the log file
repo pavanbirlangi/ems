@@ -1,0 +1,18 @@
+2024-10-14T00:41:50.820+05:30  WARN 67900 --- [ems] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h29m51s139ms).
+2024-10-14T02:22:09.183+05:30  WARN 67900 --- [ems] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m18s57ms).
+2024-10-14T05:25:03.352+05:30  WARN 67900 --- [ems] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h2m54s168ms).
+2024-10-14T07:11:00.630+05:30  WARN 67900 --- [ems] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h45m57s277ms).
+2024-10-14T09:29:53.570+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-10-14T09:29:53.581+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6692b6c6, started on Fri Oct 11 03:41:08 IST 2024
+2024-10-14T09:29:53.613+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2024-10-14T09:29:53.618+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'applicationTaskExecutor' completed its stop procedure
+2024-10-14T09:29:53.618+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147482623
+2024-10-14T09:29:53.627+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-10-14T09:29:53.627+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147481599
+2024-10-14T09:29:53.655+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2024-10-14T09:29:53.655+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147483647
+2024-10-14T09:29:53.656+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-10-14T09:29:53.657+05:30 DEBUG 67900 --- [ems] [SpringApplicationShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-10-14T09:29:53.659+05:30  INFO 67900 --- [ems] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14T09:29:53.675+05:30  INFO 67900 --- [ems] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-14T09:29:53.679+05:30  INFO 67900 --- [ems] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
